@@ -137,6 +137,8 @@ function initiate() {
     answer = 0;
     scoreCount = 0;
     scoreMaximum = 0;
+    scoreScore.value = "";
+    scoreMax.value = "";
     reset = false;
     nextExerciseButton.value = "Volgende";
     for (i=0; i<20; i++) {
